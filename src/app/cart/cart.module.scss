@@ -1,0 +1,51 @@
+.cart{
+    display: flex;
+    justify-content: center;
+}
+.cartComponent{
+    width: 70%;
+    min-height: 100vh;
+    margin: 1rem .5rem;
+    
+    .text{
+        margin: 5px 1rem;
+        display: flex;
+        font-size: 15px;
+        justify-content: space-between;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+}
+.cashComponent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+    border-radius: 3px;
+    height: 40vh;
+    margin: 1.8rem .5rem;
+    background-color: rgba(128, 128, 128, 0.287);
+    span{
+        font-weight: bold;
+    }
+    button{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding: .7rem 4rem;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+        background-color:#232F3E;
+        color: white;
+        font-size: 16px;
+        transition: all .2s;
+        &:hover{
+            background-color: #FEBD69;
+        }
+    }
+}

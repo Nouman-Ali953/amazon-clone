@@ -1,0 +1,32 @@
+.login_component {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        height: 50vh;
+
+        button {
+            width: 50%;
+            border: none;
+            outline: none;
+            padding: 1rem .8rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background-color: #FEBD69;
+            color: white;
+
+            &:hover {
+                box-shadow: .2px .3px 2px black;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.innerCart{
+    display: flex;
+    margin: 1rem;
+    width: 98%;
+    min-height: 30vh;
+    background-color: rgba(128, 128, 128, 0.287);
+    border-radius: 4px;
+    padding: 1rem;
+    p{
+        margin-top: .5rem;
+        font-size: 14px;
+    }
+    button{
+        margin-top: .5rem;
+        border-radius: 2.6px;
+        padding: .34rem .6rem;
+        background-color: red;
+        color: white;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}

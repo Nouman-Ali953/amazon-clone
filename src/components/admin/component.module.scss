@@ -1,0 +1,22 @@
+.box_component {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .box1,.box2,.box3 {
+        width: 18rem;
+        height: 7rem;
+        border-radius: 5px;
+        box-shadow: 1px .2px 2px gray;
+    }
+    .box3{
+        background: linear-gradient(90deg, rgba(35,164,229,0.8661589635854342) 0%, rgba(239,233,35,0.9810049019607843) 56%, rgba(240,232,71,0.5720413165266107) 100%);
+    }
+    .box2{
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+    }
+    .box1{
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.8493522408963585) 60%, rgba(252,176,69,1) 100%);
+
+    }
+}

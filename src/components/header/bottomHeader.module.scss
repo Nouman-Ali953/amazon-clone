@@ -1,0 +1,25 @@
+.bottomHeader{
+    width: 100%;
+    background-color: #232F3E;
+    height: 2.5rem;
+    ul{
+        display: flex;
+        width: 45%;
+        align-items: center;
+        justify-content: space-evenly;
+        height: inherit;
+        padding-left: .6rem;
+        li{
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            font-size: 14px;
+            padding: 8px;
+            font-weight: 500;
+            &:hover{
+                border: 1px solid white;
+                cursor: pointer;
+            }
+        }
+    }
+}
